@@ -44,6 +44,6 @@ bench --site dev.localhost set-config developer_mode 1
 bench --site dev.localhost clear-cache
 bench use dev.localhost
 bench get-app --branch version-15 --resolve-deps erpnext
-bench get-app --branch demo-upgrade https://github.com/lmnaslimited/cpq.git
+bench get-app --branch demo-upgrade https://github.com/Iswariya-LMNAs/cpq-new.git
 bench --site dev.localhost install-app erpnext
 bench --site dev.localhost install-app crm
