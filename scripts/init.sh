@@ -44,8 +44,11 @@ bench --site dev.localhost set-config developer_mode 1
 bench --site dev.localhost clear-cache
 bench use dev.localhost
 bench get-app --branch version-15 --resolve-deps erpnext
-bench get-app --branch <branch name> https://github.com/lmnaslimited/cpq.git
-bench get-app --branch <branch name> https://github.com/lmnaslimited/cpq_override.git
+bench get-app --branch develop https://github.com/lmnaslimited/lens_cpq.git
+# bench get-app --branch <branch name> https://github.com/lmnaslimited/cpq.git
+# bench get-app --branch <branch name> https://github.com/lmnaslimited/cpq_override.git
 bench --site dev.localhost install-app erpnext
-bench --site dev.localhost install-app crm
-bench --site dev.localhost install-app cpqextn
+bench --site dev.localhost install-app lens_cpq
+# bench --site dev.localhost install-app crm
+# bench --site dev.localhost install-app cpqextn
+
